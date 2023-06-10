@@ -66,5 +66,21 @@
   color: #000000;
 }
 
+.contact__form--input{
+  box-sizing: border-box;
+
+  position: relative;
+  left: 15.55px;
+  width: 288px;
+  height: 36px;
+  margin-bottom: 20px;
+  
+  background: rgba(0, 0, 0, 0.65);
+  border: 1px solid #FFFFFF;
+  border-radius: 4px;
+}
+
+
+
 
 /*# sourceMappingURL=styles.css.map */
