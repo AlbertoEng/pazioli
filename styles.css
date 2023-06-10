@@ -139,6 +139,14 @@
       text-align: center;
     }
 
+    .contact__form--label--desktop{
+      position: relative;
+      left: 248px;
+      width: 200px;
+      margin-bottom: 15px;
+    
+    }
+
     
 
 
