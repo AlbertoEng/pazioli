@@ -131,6 +131,14 @@
       padding: 130px 0 0 0;
     }
 
+    .contact__paragraph{
+      position: relative;
+      left: 199px;
+      width: 558px;
+      height: 57px;  
+      text-align: center;
+    }
+
     
 
 
