@@ -30,6 +30,23 @@
   color: #000000;
 }
 
+.contact__paragraph {
+  position: relative;
+  left: 15.55px;
+  width: 288px;
+  height: 114px;
+  margin-bottom: 25px;
+
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #000000;
+}
+
 
 
 /*# sourceMappingURL=styles.css.map */
