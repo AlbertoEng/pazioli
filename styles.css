@@ -158,6 +158,13 @@
       left: 248px;
     }
 
+    .contact__form--flex2{
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      left: 475px;
+    }
+
     
 
 
