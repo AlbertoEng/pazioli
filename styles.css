@@ -144,10 +144,16 @@
       left: 248px;
       width: 200px;
       margin-bottom: 15px;
-    
+    }
+
+    .contact__form--input--desktop{
+      left: 248px;
+      width: 464px;
     }
 
     
+
+
 
 
 
