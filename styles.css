@@ -176,7 +176,12 @@
       width: 464px;
     }
 
-    
+    .contact__form--button{
+      width: 464px;
+      display: block;
+      left: 248px;
+    }
+
 
 
 
