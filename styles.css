@@ -12,6 +12,7 @@
   width: 320px;
   background-color: white;
   text-align: center;
+  align-items: center;
 }
 
 .landing__para {
@@ -25,6 +26,7 @@
   font-size: 32px;
   font-family: "Abril Fatface";
   position: relative;
+  margin-top: 18px;
 }
 
 .button__ve {
@@ -35,8 +37,10 @@
   height: 32px;
   position: relative;
   background-color: black;
-  color: white;
   font-style: normal;
+  display: inline-block;
+  color: blue;
+  margin-top: 32px;
 }
 
 .button__ad {
@@ -49,6 +53,14 @@
   background-color: white;
   color: black;
   font-style: normal;
+  display: inline-block;
+  margin-left: 16px;
+  margin-top: 32px;
+}
+
+.pianoblack {
+  height: 194px;
+  width: 252px;
 }
 
 @media only screen and (min-width: 992px) {
@@ -56,8 +68,14 @@
     text-align: center;
     height: 854px;
     width: 960px;
+    align-items: center;
+    text-align: center;
   }
   .landing__title {
     font-size: 56px;
+  }
+  .pianoblack {
+    height: 454px;
+    width: 589px;
   }
 }/*# sourceMappingURL=styles.css.map */
