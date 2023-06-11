@@ -2,11 +2,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
 
+$h1-font-size-small: 32px;
+$h1-font-size-large: 56px;
 
 
 * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+}
+
+.landing{
+    height: 870px; 
+    width: 320px;
+    background-color: white;
+}
+
+.landing__para{
+    font-size: 16px;
+    font-family: 'Raleway';
+    color: #858585;
+    ;
     
+
+}
+
+.landing__tile{
+    font-size: $h1-font-size-small;
+    font-family: 'Abril Fatface';
+}
+
+@media only screen and (min-width:992px){
+
+
+
+
 }

@@ -5,4 +5,21 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+}
+
+.landing {
+  height: 870px;
+  width: 320px;
+  background-color: white;
+}
+
+.landing__para {
+  font-size: 16px;
+  font-family: "Raleway";
+  color: #858585;
+}
+
+.landing__tile {
+  font-size: 32px;
+  font-family: "Abril Fatface";
 }/*# sourceMappingURL=styles.css.map */
