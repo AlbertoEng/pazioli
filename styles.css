@@ -36,6 +36,7 @@
   position: relative;
   background-color: black;
   color: white;
+  font-style: normal;
 }
 
 .button__ad {
@@ -47,6 +48,7 @@
   position: relative;
   background-color: white;
   color: black;
+  font-style: normal;
 }
 
 @media only screen and (min-width: 992px) {
