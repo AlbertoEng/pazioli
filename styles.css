@@ -73,11 +73,22 @@
     align-items: center;
     text-align: center;
   }
+  .landing__para {
+    margin-top: 142px;
+  }
   .landing__title {
     font-size: 56px;
+    margin-top: 18px;
+  }
+  .button__ve {
+    margin-top: 32px;
+  }
+  .button__ad {
+    margin-top: 32px;
   }
   .pianoblack {
     height: 454px;
     width: 589px;
+    margin-top: 90px;
   }
 }/*# sourceMappingURL=styles.css.map */

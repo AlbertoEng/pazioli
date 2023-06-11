@@ -70,6 +70,7 @@ $h1-font-size-large: 56px;
     margin-top: 56px;
 }
 
+
 @media only screen and (min-width:992px){
     .landing{
         text-align: center;
@@ -77,14 +78,28 @@ $h1-font-size-large: 56px;
         width: 960px;
         align-items: center;
         text-align: center;
-
     }
+
+    .landing__para{
+        margin-top: 142px;
+    }
+
     .landing__title{
         font-size: $h1-font-size-large;
+        margin-top: 18px;
+    }
+
+    .button__ve{
+        margin-top: 32px;
+    }
+
+    .button__ad{
+        margin-top: 32px;
     }
 
     .pianoblack{
         height: 454px;
         width: 589px;
+        margin-top: 90px;
     }
 }
