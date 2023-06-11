@@ -20,6 +20,7 @@
   font-family: "Raleway";
   color: #858585;
   position: relative;
+  margin-top: 139px;
 }
 
 .landing__title {
@@ -39,7 +40,7 @@
   background-color: black;
   font-style: normal;
   display: inline-block;
-  color: blue;
+  color: white;
   margin-top: 32px;
 }
 
@@ -61,6 +62,7 @@
 .pianoblack {
   height: 194px;
   width: 252px;
+  margin-top: 56px;
 }
 
 @media only screen and (min-width: 992px) {
