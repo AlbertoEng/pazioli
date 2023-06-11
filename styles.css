@@ -11,15 +11,43 @@
   height: 870px;
   width: 320px;
   background-color: white;
+  text-align: center;
 }
 
 .landing__para {
   font-size: 16px;
   font-family: "Raleway";
   color: #858585;
+  position: relative;
 }
 
-.landing__tile {
+.landing__title {
   font-size: 32px;
   font-family: "Abril Fatface";
+  position: relative;
+}
+
+.button__ve {
+  font-family: "Poppins";
+  border: 1px solid black;
+  border-radius: 8px;
+  width: 129px;
+}
+
+.button__ad {
+  font-family: "Poppins";
+  border: 1px solid black;
+  border-radius: 8px;
+  width: 129px;
+}
+
+@media only screen and (min-width: 992px) {
+  .landing {
+    text-align: center;
+    height: 854px;
+    width: 960px;
+  }
+  .landing__title {
+    font-size: 56px;
+  }
 }/*# sourceMappingURL=styles.css.map */
