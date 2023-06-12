@@ -3,18 +3,21 @@
 
 @import "vars";
 
-* {
-    box-sizing: content-box;
-    // box-sizing: border-box;
+.all__container--cards {
+    width: 320px;
+    height: 1356px;
+}
 
+.all__container--cards {
+    box-sizing: content-box;
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
     line-height: 14px;  
     letter-spacing: 0.05em;
     font-family: 'Raleway', sans-serif;
-    // margin:0px;
-    // padding:0px;
+    margin:0px;
+    padding:0px;
 }
 
 .principal__text {
@@ -141,9 +144,15 @@
 }
 
 @media only screen and (min-width:992px) {
+
+    .all__container--cards {
+        width: 960px;
+        height: 751px;
+    }
+
     .text__container--all {
         position: relative;
-        top: 91px;
+        bottom: 116px;
      }
 
     .card__butterfly--piano {
@@ -156,8 +165,8 @@
 
     .card__piano {
         height: 165px;
-        position: absolute;
-        bottom: 312px;
+        position: relative;
+        bottom: 115px;
     }
 
     .card__golden--piano {
@@ -165,7 +174,7 @@
         margin-left: 49px;
         margin-right: 7px;
         height: 239px;
-        margin-top: 100px;
+        margin-top: 119px;
     }
     .card__walnut--piano {
         display:inline-block;
@@ -174,6 +183,12 @@
         height: 239px;
         margin-top: 100px;
     }
+
+    .text__container--all {
+        position: relative;
+        bottom: 116px;
+    }
+
     .principal__text {
         padding-left: 246px;
         width: 470px;
@@ -185,6 +200,7 @@
     }
     .button__showmore{
         left: 417px;
-        top: 84px;
+        position: absolute;
+        top: 654px;
     }
 }
