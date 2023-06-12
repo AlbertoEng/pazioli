@@ -1,5 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+$h1-font-size-small: 32px;
+$h1-font-size-large: 56px;
+
+
 * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+}
+
+.landing{
+    height: 870px; 
+    width: 320px;
+    background-color: white;
+    text-align: center;
+    align-items: center;
+}
+
+.landing__para{
+    font-size: 16px;
+    font-family: 'Raleway';
+    color: #858585;
+    position: relative;
+    margin-top: 139px;
+}
+
+.landing__title{
+    font-size: $h1-font-size-small;
+    font-family: 'Abril Fatface';
+    position: relative;
+    margin-top: 18px;
+}
+
+.button__ve{
+    font-family: 'Poppins';
+    border: 1px solid black;
+    border-radius: 8px;
+    width: 129px;
+    height: 32px;
+    position: relative;
+    background-color: black;
+    font-style: normal;
+    display: inline-block;
+    color: white;
+    margin-top: 32px;
+    font-weight: 500;
+    line-height: 21px;
+}
+
+.button__ad{
+    font-family: 'Poppins';
+    border: 1px solid black;
+    border-radius: 8px;
+    width: 129px;
+    height: 32px;
+    position: relative;
+    background-color: white;
+    color: black;
+    font-style: normal;
+    display: inline-block;
+    margin-left: 16px;
+    margin-top: 32px;
+    font-weight: 500;
+    line-height: 21px;
+}
+
+.pianoblack{
+    height: 194px;
+    width: 252px;
+    margin-top: 56px;
+}
+
+.circle__face{
+    display: none;
+}
+
+.circle__link{
+    display: none;
+}
+
+.circle__twit{
+    display: none;
+}
+
+
+@media only screen and (min-width:992px){
+    .landing{
+        text-align: center;
+        height: 854px;
+        width: 960px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .landing__para{
+        margin-top: 142px;
+    }
+
+    .landing__title{
+        font-size: $h1-font-size-large;
+        margin-top: 18px;
+    }
+
+    .button__ve{
+        margin-top: 32px;
+        font-weight: 500;
+        line-height: 21px;
+    }
+
+    .button__ad{
+        margin-top: 32px;
+        font-weight: 500;
+        line-height: 21px;
+    }
+
+    .pianoblack{
+        height: 454px;
+        width: 589px;
+        margin-top: 90px;
+        display: inline-block;
+    }
+
+    .circle__face{
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 50px;
+        width: 32px;
+        height: 32px;
+        margin-left: 896px;
+        margin-right: 32px;
+        display: inline-block;
+        position: relative;
+        top: -200px;
+    }
+
+    .circle__link{
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 50px;
+        width: 32px;
+        height: 32px;
+        margin-left: 896px;
+        margin-right: 32px;
+        display: inline-block;
+        position: relative;
+        top: -185px;
+    }
+
+    .circle__twit{
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 50px;
+        width: 32px;
+        height: 32px;
+        margin-left: 896px;
+        margin-right: 32px;
+        display: inline-block;
+        position: relative;
+        top: -170px;
+    }
+
+    .circle__face--img{
+        position: relative;
+        padding-top: 5px;
+    }
+
+    .circle__link--img{
+        position: relative;
+        padding-top: 5px;
+    }
+
+    .circle__twit--img{
+        position: relative;
+        padding-top: 6px;
+    }
 }
