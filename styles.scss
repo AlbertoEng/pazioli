@@ -55,3 +55,33 @@
     padding-left: 12px;
     flex-direction: column;
 }
+
+.ellipse__container {
+    position: relative;
+}
+
+.rectangle__price {
+    margin-left: 16px;
+    margin-top: 10px;
+}
+
+.price__container--text {
+    position: relative;
+    bottom: 52px;
+    left: 27px;
+    font-size: 16px;
+    line-height: 19px;
+}   
+
+.black__box {
+    position: relative;
+    bottom: 100px;
+    left: 200px;
+    z-index: -1;
+}
+
+.shopping__cart {
+    position: relative;
+    bottom: 107px;
+    left: 166px;
+}
