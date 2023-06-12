@@ -3,14 +3,9 @@
 
 @import "vars";
 
-.all__container--cards {
-    width: 320px;
-    height: 1356px;
-}
 
-.all__container--cards {
+* {
     box-sizing: content-box;
-    font-style: normal;
     font-weight: 400;
     font-size: 12px;
     line-height: 14px;  
@@ -18,13 +13,14 @@
     font-family: 'Raleway', sans-serif;
     margin:0px;
     padding:0px;
+    letter-spacing: 0.05em;
+
 }
 
 .principal__text {
     font-family: 'Abril Fatface', cursive;
     width: 288px;
     height: 72px;
-    font-style: normal;
     font-size: 24px;
     line-height: 32px;
     display: flex;
@@ -42,7 +38,7 @@
 .price__tag {
     font-size: 16px;
     line-height: 19px;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 .name__text {
@@ -51,12 +47,14 @@
     font-size: 16px;
     line-height: 22px;
     padding-left: 12px;
+    padding-top: 15px;
 }
 
 .description__text {
     position: relative;
-    padding-left: 12px;
-    flex-direction: column;
+    left: 12px;
+    top: 16px;
+    letter-spacing: 0.13em;
 }
 
 .ellipse__container {
@@ -65,12 +63,12 @@
 
 .rectangle__price {
     margin-left: 16px;
-    margin-top: 10px;
+    margin-top: 31px;
 }
 
 .price__container--text {
     position: relative;
-    bottom: 52px;
+    bottom: 32px;
     left: 27px;
     font-size: 16px;
     line-height: 19px;
@@ -78,15 +76,14 @@
 
 .black__box {
     position: relative;
-    bottom: 100px;
-    left: 200px;
-    z-index: -1;
+    bottom: 58px;
+    left: 194px;
 }
 
 .shopping__cart {
     position: relative;
-    bottom: 107px;
-    left: 166px;
+    bottom: 65px;
+    left: 161px;
 }
 
 .card__piano {  
@@ -100,6 +97,7 @@
 .vector__image {
     width: 232px;
     margin-left: 9px;
+    margin-top: 22px;
 }
 
 .button__showmore:hover {
@@ -142,6 +140,7 @@
 .button__showmore {
     @include button__showmore--color($primary-color,$secondary-color);
 }
+
 
 @media only screen and (min-width:992px) {
 
