@@ -31,3 +31,27 @@
     margin-top: 32px;
     margin-bottom: 32px;
 }
+
+.dot {
+    font-weight: bolder;
+}
+
+.price__tag {
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: bold;
+}
+
+.name__text {
+    font-family: 'Abril Fatface', cursive;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    padding-left: 12px;
+}
+
+.description__text {
+    position: relative;
+    padding-left: 12px;
+    flex-direction: column;
+}
