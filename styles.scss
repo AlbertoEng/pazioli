@@ -85,3 +85,32 @@
     bottom: 107px;
     left: 166px;
 }
+
+.card__piano {  
+    width:205px;
+    height: 165.86px;
+    padding-left: 20px;
+    padding-top:20px;
+    padding-right:25px;
+}
+
+.vector__image {
+    width: 232px;
+    margin-left: 9px;
+}
+
+.button__showmore:hover {
+    background: rgba(0, 0, 0, 0.75);
+}
+
+@mixin button__showmore--color($primary-color,$secondary-color) {
+    border: none;
+    background-color: $primary-color;
+    border-radius: 8px;
+    color: $secondary-color;
+    width: 129px;
+    height: 32px;
+    position: relative;
+    top: 50px;
+    left: 96px;  
+}
