@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+body {
+  margin: 0px;
+}
+
+footer {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgb(255, 255, 255));
+  height: 803px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}/*# sourceMappingURL=styles.css.map */
