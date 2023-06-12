@@ -114,3 +114,28 @@
     top: 50px;
     left: 96px;  
 }
+
+@mixin card__container($shadow-color) {
+    box-shadow: $shadow-color;
+    border: none;
+    border-radius: 8px;
+    width: 250px;
+    height: 350px;
+    margin-top: 20px;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+.card__butterfly--piano {
+    @include card__container($shadow-color);
+}
+.card__golden--piano {
+    @include card__container($shadow-color);
+}
+.card__walnut--piano {
+    @include card__container($shadow-color);
+}
+
+.button__showmore {
+    @include button__showmore--color($primary-color,$secondary-color);
+}
