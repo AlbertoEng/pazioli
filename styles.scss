@@ -1,6 +1,13 @@
 @import "vars";
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@mixin option_n() {
+    font-family: 'Abril Fatface';
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    color: $primary-color-b;
 
+    
 
 body {
     margin: 0px;
