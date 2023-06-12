@@ -33,3 +33,9 @@ footer > article > .contacts {
 footer > .container_contacts > article > .contacts {
     @include option_n()
 }
+
+.credits{
+    position: absolute;
+    bottom: 56px;
+
+}
