@@ -6,7 +6,7 @@
     font-size: 14px;
     text-align: center;
     color: $primary-color-b;
-
+}
 
 
 body {
@@ -37,5 +37,52 @@ footer > .container_contacts > article > .contacts {
 .credits{
     position: absolute;
     bottom: 56px;
-
 }
+
+@media only screen and (min-width: 1200px) {
+    footer {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+    }
+    footer > article {
+     text-align: left;
+    }
+    footer > article > .contacts {
+     text-align: left;
+    }
+    
+    footer > .container_contacts > article {
+     text-align: left;
+     align-items: flex-start;
+ }
+ footer > .container_contacts > article > .contacts {
+     align-items: flex-start;
+ }
+ 
+     
+ }
+
+ @media only screen and (min-width: 1200px) {
+    footer {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+    }
+    footer > article {
+     text-align: left;
+    }
+    footer > article > .contacts {
+     text-align: left;
+    }
+    
+    footer > .container_contacts > article {
+     text-align: left;
+     align-items: flex-start;
+ }
+ footer > .container_contacts > article > .contacts {
+     align-items: flex-start;
+ }
+ 
+     
+ }
